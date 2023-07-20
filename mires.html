@@ -94,7 +94,7 @@
       }
 
       // Calcula e exibe a área do tabuleiro
-      const chessboardArea = area * 1; // Cada quadrado tem 50x50 pixels (50 * 50 = 2500)
+      const chessboardArea = rowsInput * colsInput;
       const areaElement = document.getElementById('area');
       areaElement.innerText = `Área do tabuleiro: ${chessboardArea} quadrados`;
     }
